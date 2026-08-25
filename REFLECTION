@@ -1,0 +1,11 @@
+VII. Reflection
+a. Which editor panel was least familiar to you, and how did you work out what it does?
+    The editor panel the least familiar to me was the Scenedock, I worked out what it did by exploring its features and fucntionalities
+b. What installation, setup, or Git issue did you or your pair-partner run into, and how did you
+resolve it?
+  I ran into the issue of this 
+" ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/nadeeniiee/IAC1_GAMDES1_Osting_NadineKyla.git'" 
+when I was pushing it into my github, i resolved it with this code "git pull origin main --allow-unrelated-histories"
+c. In your own words, what is the relationship between a node, a scene, and the scene tree?
+  The relationship between a node a scene and a scene tree is that, a node is the building blocks, a scene is a group of nodes, lastly a scene tree is a group of scenes.
