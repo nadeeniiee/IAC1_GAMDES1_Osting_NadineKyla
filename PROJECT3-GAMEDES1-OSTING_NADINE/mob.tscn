@@ -19,7 +19,7 @@ animations = [{
 }],
 "loop": 1,
 "name": &"fly",
-"speed": 5.0
+"speed": 3.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -30,7 +30,7 @@ animations = [{
 }],
 "loop": 1,
 "name": &"swim",
-"speed": 5.0
+"speed": 3.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -41,26 +41,26 @@ animations = [{
 }],
 "loop": 1,
 "name": &"walk",
-"speed": 5.0
+"speed": 3.0
 }]
 
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_l60nh"]
-radius = 50.0
-height = 136.0
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_c1sa2"]
+radius = 46.0
+height = 92.0
 
-[node name="Mob" type="RigidBody2D" unique_id=888272744]
+[node name="Mob" type="RigidBody2D" unique_id=684971954]
 collision_mask = 0
 gravity_scale = 0.0
 script = ExtResource("1_1qmh0")
 metadata/_edit_group_ = true
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1984374004]
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1245008242]
 scale = Vector2(0.75, 0.75)
 sprite_frames = SubResource("SpriteFrames_c1sa2")
-animation = &"walk"
+animation = &"fly"
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1810010369]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1464212387]
 rotation = 1.5707964
-shape = SubResource("CapsuleShape2D_l60nh")
+shape = SubResource("CapsuleShape2D_c1sa2")
 
-[node name="VisibleOnScreenEnabler2D" type="VisibleOnScreenEnabler2D" parent="." unique_id=1868814922]
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="." unique_id=248583488]
